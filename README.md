@@ -1,7 +1,7 @@
 # LoginAPI
 php api for login , signup and forgetpassword with JsonWebToken + mysql database
 
-=============================================================================
+=====================================================================
 
 Register Request : 
 
@@ -9,7 +9,7 @@ url : http://localhost/register.php
 
 body: {"email":"<Email>","password":"<Password>","name":"<Firstname>"}
 
-=============================================================================
+=====================================================================
 
 Login Request : 
 
@@ -17,7 +17,7 @@ url : http://localhost/Login.php
 
 body: {"email":"<Email>","password":"<Password>"}
 
-=============================================================================
+=====================================================================
 
 Request For ResetPassword:
 
