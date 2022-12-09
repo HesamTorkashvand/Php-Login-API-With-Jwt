@@ -7,7 +7,7 @@ Register Request :
 
 url : http://localhost/register.php
 
-body: {"email":"<Email>","password":"<Password>","name":"<Firstname>"}
+body: {"email":"test@gmail.com","password":"Pass","name":"Firstname"}
 
 ===============================
 
@@ -15,7 +15,7 @@ Login Request :
 
 url : http://localhost/Login.php
 
-body: {"email":"<Email>","password":"<Password>"}
+body: {"email":"test@gmail.com","password":"Pass"}
 
 ===============================
 
@@ -25,8 +25,8 @@ url: http://localhost/forget.php
 
 1- Get Token : 
  
-Body: {"Action":"GetToken","email":"<Email>"}
+Body: {"Action":"GetToken","email":"test@gmail.com"}
     
 2- Reset Password :
 
-Body: {"Action":"ResetPassword","token":"<Token>","newpass":"<newpass>"}
+Body: {"Action":"ResetPassword","token":"Token","newpass":"newpass"}
