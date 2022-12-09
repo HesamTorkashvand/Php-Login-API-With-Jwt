@@ -44,9 +44,9 @@ elseif(!isset($data->name)
 
 else:
     //get data
-    $name = trim($data->name);
-    $email = trim($data->email);
-    $password = trim($data->password);
+    $name = trim(htmlentities($data->name,ENT_QUOTES));
+    $email = trim(htmlentities($data->email,ENT_QUOTES));
+    $password = trim(htmlentities($data->password,ENT_QUOTES));
 
     // validate email 
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)):
